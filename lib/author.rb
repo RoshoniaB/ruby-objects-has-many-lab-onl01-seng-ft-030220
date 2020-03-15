@@ -3,15 +3,15 @@ class Author
   
   @@all =[]
   
-  def initialize (janet)
-    @name = janet
+  def initialize (jkr)
+    @name = jkr
     @@all << self
   end
   
   def self.all
     @@all 
   end
-    def add_song(song)
+    def post(song)
     song.artist = self 
   end 
   
