@@ -14,5 +14,6 @@ class Author
     post.artist = self
   end
   
-  def add
+  def add_post_by_name(jkr)
+    
 end
