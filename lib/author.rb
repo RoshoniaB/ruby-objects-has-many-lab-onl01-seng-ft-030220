@@ -7,5 +7,8 @@ class Author
   end 
   
   def self.all
-    @@a
+    @@all
+  end
+  
+  
 end
