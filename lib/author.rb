@@ -1,8 +1,8 @@
 class Author 
   
   @@all =[]
-  def initialize(name)
-     @@name = name
+  def initialize(jkr)
+     @@name = jkr
      @@all << self 
   end 
   
