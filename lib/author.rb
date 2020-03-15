@@ -15,5 +15,15 @@ class Author
   end
   
   def add_post_by_name(jkr)
-    
+    post = Post.new(jkr)
+    post.artist = self
+  end
+  
+  def post 
+    Post.all.select {|post| post.author == self}
+  end
+  
+  def self.post_count
+    Post.all.count
+  end
 end
