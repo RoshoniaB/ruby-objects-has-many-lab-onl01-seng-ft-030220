@@ -2,6 +2,7 @@ class Author
   attr_accessor :name 
   
   @@all =[]
+  
   def initialize (janet)
     @name = janet
     @@all << self
