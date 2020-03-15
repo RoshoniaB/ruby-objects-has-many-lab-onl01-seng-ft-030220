@@ -10,5 +10,5 @@ class Author
     @@all
   end
   
-  def 
+  def add_post
 end
