@@ -6,5 +6,6 @@ class Author
      @@all << self 
   end 
   
-  def 
+  def self.all
+    @@a
 end
