@@ -11,5 +11,8 @@ class Author
   end
   
   def add_post(post)
-    post.artist
+    post.artist = self
+  end
+  
+  def add
 end
