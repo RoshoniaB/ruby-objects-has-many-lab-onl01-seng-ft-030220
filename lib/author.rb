@@ -1,8 +1,8 @@
 class Author 
   
   @@all =[]
-  def initialize(jkr)
-     @@name = jkr
+  def initialize(author)
+     @@name = author
      @@all << self 
   end 
   
@@ -14,8 +14,8 @@ class Author
     post.artist = self
   end
   
-  def add_post_by_name(jkr)
-    post = Post.new(jkr)
+  def add_post_by_name(author)
+    post = Post.new(author)
     post.artist = self
   end
   
