@@ -3,7 +3,7 @@ class Song
   
   @@all=[]
   
-  def initialize(name)
+  def initialize(es)
     @@name = name
     @@all << self
   end
