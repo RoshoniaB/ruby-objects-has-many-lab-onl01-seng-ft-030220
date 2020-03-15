@@ -2,8 +2,8 @@ class Artist
   attr_accessor :name 
   
   @@all =[]
-  def initialize (name)
-    @name = name
+  def initialize (janet)
+    @name = janet
     @@all << self
   end
   
